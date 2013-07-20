@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN"
+                     "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+
+<toc version="2.0">
+    <tocitem text="Mòdul Fitxes-Tutoria" mergetype="javax.help.SortMerge">
+        <tocitem text="Introducció" target="org-iesapp-modules-fitxes"/>
+        <tocitem text="Cerca d'alumnes" target="org-iesapp-modules-fitxes-cerca">
+            <tocitem text="Fitxa dades personals" target="org-iesapp-modules-fitxes-dp"/>
+            <tocitem text="Fitxa del curs acadèmic" target="org-iesapp-modules-fitxes-fitxacurs"/>
+        </tocitem>
+        <tocitem text="Obtenir informes" target="org-iesapp-modules-fitxes-informes">
+            <tocitem text="Llista de contrasenyes dels alumnes" target="org-iesapp-modules-fitxes-informes"/>
+            <tocitem text="Resum de les fitxes de tutoria" target="org-iesapp-modules-fitxes-informes"/>
+            <tocitem text="Orla dels grups" target="org-iesapp-modules-fitxes-informes"/>
+            <tocitem text="Llista i resum d'incidències SGD" target="org-iesapp-modules-fitxes-informes"/>
+        </tocitem>
+        <tocitem text="Consultar/Iniciar actuacions de tutoria" target="org-iesapp-modules-fitxes-actuacions">
+            <tocitem text="Actuacions d'assistència-puntualitat" target="org-iesapp-modules-fitxes-actuacions"/>
+            <tocitem text="Actuacions de convivència" target="org-iesapp-modules-fitxes-actuacions"/>
+        </tocitem>
+        <tocitem text="Preparar una nova entrevista amb la família" target="org-iesapp-modules-fitxes-entrevista">
+            <tocitem text="Sol·licituds d'informació a l'equip docent" target="org-iesapp-modules-fitxes-entrevista"/>
+            <tocitem text="Obtenir informació d'emergència" target="org-iesapp-modules-fitxes-entrevista"/>
+        </tocitem>
+        <tocitem text="Justificar faltes d'assistència i retards" target="org-iesapp-modules-fitxes-justificar">
+        </tocitem>
+        
+    </tocitem>
+</toc>

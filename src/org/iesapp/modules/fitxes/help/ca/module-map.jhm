@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN"
+                     "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+    <mapID target="org-iesapp-modules-fitxes" url="html/module.html"/>    
+    <mapID target="org-iesapp-modules-fitxes-cerca" url="html/cerca.html"/>     
+    <mapID target="org-iesapp-modules-fitxes-dp" url="html/dp.html"/>     	
+    <mapID target="org-iesapp-modules-fitxes-fitxacurs" url="html/fitxacurs.html"/>  
+    <mapID target="org-iesapp-modules-fitxes-informes" url="html/informes.html"/>  
+    <mapID target="org-iesapp-modules-fitxes-actuacions" url="html/actuacions.html"/>  
+    <mapID target="org-iesapp-modules-fitxes-entrevista" url="html/entrevista.html"/>  
+    <mapID target="org-iesapp-modules-fitxes-justificar" url="html/justificar.html"/>    
+	 
+</map>

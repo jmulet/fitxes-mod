@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+    <module jar="org-iesapp-modules-fitxes.jar" class="org.iesapp.modules.fitxes.FitxesGUI" autoStart="no" multipleInstance="no" closable="yes">
+        
+        <deamons>
+            <deamon class="org.iesapp.modules.fitxes.FitxesDeamon" timeInMillis="300000" showMessage="yes" activateIcon="yes"  activateModule="no" enabled="false" roles="TUTOR"/>
+	</deamons>
+        
+        <anchor location="menu" parentId="jMenuModules"/>
+        <anchor location="toolbar" parentId="jToolBarModules"/>
+        <display location="topwindow" parentId="center"/>
+        <bundle>
+            <locale key="title" value="ca"><![CDATA[Fitxes-Tutoria]]></locale>
+            <locale key="title"  value="es"><![CDATA[Fichas-Tutoria]]></locale>
+            <locale key="title"  value="default"><![CDATA[Tutorial forms]]></locale>
+            <locale key="description"  value="default"><![CDATA[This module allows administrate tutorial activities]]></locale>
+        </bundle>
+        <metaINF author="Josep Mulet (c) 2013" version="1.6" dependencies=""/>
+    </module>    
+</root>
