@@ -7,18 +7,18 @@ package org.iesapp.modules.fitxes.dialogs;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.Icon;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
-import org.iesapp.clients.iesdigital.actuacions.Actuacio;
 import org.iesapp.framework.table.CellDateRenderer;
 import org.iesapp.framework.table.CellTableState;
 import org.iesapp.framework.table.MyIconButtonRenderer;
 import org.iesapp.framework.table.MyIconLabelRenderer;
 import org.iesapp.framework.table.TextAreaRenderer;
 import org.iesapp.framework.util.CoreCfg;
+import org.iesapp.framework.util.IconUtils;
 import org.iesapp.modules.fitxescore.util.Cfg;
 
 /**
@@ -70,10 +70,10 @@ public class HistorialActuacions extends javax.swing.JScrollPane{
                     "Id", "Data inici", "Acció", "Data fi", "Prefectura" //, "Document"
                 });
         jTable1.setModel(modelTable1);
-        String[] icons = new String[]{
-            "/org/iesapp/modules/fitxes/icons/print2.gif",
-            "/org/iesapp/modules/fitxes/icons/blank.gif",
-            "/org/iesapp/modules/fitxes/icons/blank.gif"
+        Icon[] icons = new Icon[]{
+            IconUtils.getIconResource(getClass().getClassLoader(), "org/iesapp/modules/fitxes/icons/print2.gif"),
+            IconUtils.getBlankIcon(),
+            IconUtils.getBlankIcon()
         };
 
         jTable1.setModel(modelTable1);

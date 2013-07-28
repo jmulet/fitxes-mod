@@ -26,6 +26,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.ButtonGroup;
 import javax.swing.DefaultComboBoxModel;
+import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JDesktopPane;
 import javax.swing.JLabel;
@@ -74,6 +75,7 @@ import org.iesapp.framework.table.CellTableState;
 import org.iesapp.framework.table.MyIconButtonRenderer;
 import org.iesapp.framework.table.MyIconLabelRenderer;
 import org.iesapp.framework.util.CoreCfg;
+import org.iesapp.framework.util.IconUtils;
 import org.iesapp.modules.fitxes.dialogs.CanviaGrup;
 import org.iesapp.modules.fitxes.dialogs.Cleaner;
 import org.iesapp.modules.fitxes.dialogs.DlgCastigDimecres;
@@ -2200,17 +2202,17 @@ import org.iesapp.util.StringUtils;
             belongs = cfg.getCoreCfg().getIesClient().getFitxesClient().getFitxesUtils().belongsList(cfg.getCoreCfg().getUserInfo().getAbrev(), cfg.anyAcademicFitxes);
             ////////System.out.println("quants pertanyen="+belongs.size());
 
-            String[] icons = new String[] {
-                 "/org/iesapp/modules/fitxes/icons/locked.gif",
-                 "/org/iesapp/modules/fitxes/icons/editable.gif",
-                 "/org/iesapp/modules/fitxes/icons/toolbar/pares.gif"
+            Icon[] icons = new Icon[] {
+                 IconUtils.getIconResource(getClass().getClassLoader(),"org/iesapp/modules/fitxes/icons/locked.gif"),
+                 IconUtils.getIconResource(getClass().getClassLoader(),"org/iesapp/modules/fitxes/icons/editable.gif"),
+                 IconUtils.getIconResource(getClass().getClassLoader(),"org/iesapp/modules/fitxes/icons/toolbar/pares.gif")
                 };
 
-             String[] icons2 = new String[] {
-                 "/org/iesapp/modules/fitxes/icons/flag_green.gif",
-                 "/org/iesapp/modules/fitxes/icons/flag_red.gif",
-                 "/org/iesapp/modules/fitxes/icons/flag_orange.gif",
-                 "/org/iesapp/modules/fitxes/icons/blank.gif"
+             Icon[] icons2 = new Icon[] {
+                 IconUtils.getIconResource(getClass().getClassLoader(),"org/iesapp/modules/fitxes/icons/flag_green.gif"),
+                 IconUtils.getIconResource(getClass().getClassLoader(),"org/iesapp/modules/fitxes/icons/flag_red.gif"),
+                 IconUtils.getIconResource(getClass().getClassLoader(),"org/iesapp/modules/fitxes/icons/flag_orange.gif"),
+                 IconUtils.getBlankIcon()
                 };
 
                 

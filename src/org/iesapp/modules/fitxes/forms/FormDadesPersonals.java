@@ -41,6 +41,7 @@ import org.iesapp.framework.table.MyIconLabelRenderer;
 import org.iesapp.framework.table.TextAreaEditor;
 import org.iesapp.framework.table.TextAreaRenderer;
 import org.iesapp.framework.util.CoreCfg;
+import org.iesapp.framework.util.IconUtils;
 import org.iesapp.modules.fitxes.FitxesGUI;
 import org.iesapp.modules.fitxes.dialogs.AccionsAlumne4;
 import org.iesapp.modules.fitxes.reports.ReportingClass;
@@ -164,7 +165,7 @@ public class FormDadesPersonals extends javax.swing.JPanel {
             public void paintComponent(Graphics g)
             {
                 java.awt.Dimension d = getSize();
-                ImageIcon img = new javax.swing.ImageIcon(getClass().getResource("/org/iesapp/modules/fitxes/icons/fons3.jpg"));
+                ImageIcon img = new javax.swing.ImageIcon(getClass().getResource("/iesapp/modules/fitxes/icons/fons3.gif"));
                 //Dimension size = new Dimension(img.getWidth(null), img.getHeight(null));
                 //setPreferredSize(size);
                 //setMinimumSize(size);
@@ -249,7 +250,7 @@ public class FormDadesPersonals extends javax.swing.JPanel {
         jPanel7.setName("jPanel7"); // NOI18N
 
         jLabel23.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/iesapp/modules/fitxes/icons/halt.gif"))); // NOI18N
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iesapp/modules/fitxes/icons/halt.gif"))); // NOI18N
         jLabel23.setText("  No té permisos per veure el contingut");
         jLabel23.setName("jLabel23"); // NOI18N
 
@@ -795,7 +796,7 @@ public class FormDadesPersonals extends javax.swing.JPanel {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addGap(10, 10, 10)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel11, javax.swing.GroupLayout.DEFAULT_SIZE, 732, Short.MAX_VALUE)
+                    .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, 732, Short.MAX_VALUE)
                     .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -857,7 +858,7 @@ public class FormDadesPersonals extends javax.swing.JPanel {
             }
         };
         jTable3.setModel(modelTable3);
-        String[] icons = new String[]{"/org/iesapp/modules/fitxes/icons/delete.gif"};
+        Icon[] icons = new Icon[]{IconUtils.getDeleteIcon()};
 
         jTable3.getColumnModel().getColumn(0).setCellRenderer(new MyIconLabelRenderer(icons));
         jTable3.getColumnModel().getColumn(5).setCellEditor(new TextAreaEditor());

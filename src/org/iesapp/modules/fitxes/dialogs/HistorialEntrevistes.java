@@ -13,6 +13,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.Icon;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import javax.swing.event.TableModelEvent;
@@ -35,6 +36,7 @@ import org.iesapp.framework.table.MyIconLabelRenderer;
 import org.iesapp.framework.table.TextAreaEditor;
 import org.iesapp.framework.table.TextAreaRenderer;
 import org.iesapp.framework.util.CoreCfg;
+import org.iesapp.framework.util.IconUtils;
 import org.iesapp.modules.fitxes.FitxesGUI;
 import org.iesapp.modules.fitxes.reports.ReportingClass;
 import org.iesapp.modules.fitxescore.util.Cfg;
@@ -95,11 +97,12 @@ public class HistorialEntrevistes extends javax.swing.JScrollPane{
                     "id", "Data entrevista", "Sol·licita informació a", "SMS", "Document", "Acords presos"
                 });
         jTable2.setModel(modelTable2);
-        String[] icons2 = new String[]{
-            "/org/iesapp/modules/fitxes/icons/delete.gif", "/org/iesapp/modules/fitxes/icons/blank.gif"
+        
+        Icon[] icons2 = new Icon[]{
+            IconUtils.getDeleteIcon(), IconUtils.getBlankIcon()
         };
 
-        String[] icons = new String[]{"/org/iesapp/modules/fitxes/icons/print.gif"};
+        Icon[] icons = new Icon[]{IconUtils.getPrintIcon()};
 
         jTable2.getColumnModel().getColumn(0).setCellRenderer(new MyIconButtonRenderer(icons2));
 
