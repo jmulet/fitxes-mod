@@ -43,7 +43,7 @@ import org.iesapp.clients.iesdigital.fitxes.SGDImporter;
 import org.iesapp.clients.sgd7.evaluaciones.EvaluacionesCollection;
 import org.iesapp.clients.sgd7.reports.InformesSGD;
 import org.iesapp.framework.data.User;
-import org.iesapp.framework.pluggable.deamons.TopModuleDeamon;
+import org.iesapp.framework.pluggable.daemons.TopModuleDaemon;
 import org.iesapp.framework.pluggable.grantsystem.Profile;
 import org.iesapp.framework.pluggable.modulesAPI.ErrorDisplay;
 import org.iesapp.framework.table.*;
@@ -469,7 +469,7 @@ public class AccionsAlumne4 extends javax.swing.JInternalFrame {
         jProgressBar5.setString("0");
         jProgressBar5.setStringPainted(true);
 
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iesapp/modules/fitxes/icons/view.gif"))); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/iesapp/modules/fitxes/icons/view.gif"))); // NOI18N
         jButton3.setText("Detalls");
         jButton3.setToolTipText("Mostra un informe de sancions acumulades");
         jButton3.setName("jButton3"); // NOI18N
@@ -562,7 +562,7 @@ public class AccionsAlumne4 extends javax.swing.JInternalFrame {
         jProgressBar4.setString("0");
         jProgressBar4.setStringPainted(true);
 
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iesapp/modules/fitxes/icons/view.gif"))); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/iesapp/modules/fitxes/icons/view.gif"))); // NOI18N
         jButton2.setText("Detalls");
         jButton2.setToolTipText("Mostra un informe d'assistència i puntualitat");
         jButton2.setName("jButton2"); // NOI18N
@@ -681,7 +681,7 @@ public class AccionsAlumne4 extends javax.swing.JInternalFrame {
         );
         jTable1.setModel(modelTable1);
         Icon[] icons = new Icon[] {
-            IconUtils.getIconResource(getClass().getClassLoader(),"iesapp/modules/fitxes/icons/print2.gif"),
+            IconUtils.getIconResource(getClass().getClassLoader(),"org/iesapp/modules/fitxes/icons/print2.gif"),
             IconUtils.getBlankIcon(),
             IconUtils.getDeleteIcon()
         };
@@ -763,7 +763,7 @@ public class AccionsAlumne4 extends javax.swing.JInternalFrame {
             }
         });
 
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iesapp/modules/fitxes/icons/exit.gif"))); // NOI18N
+        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/iesapp/modules/fitxes/icons/exit.gif"))); // NOI18N
         jButton10.setText("Tanca");
         jButton10.setName("jButton10"); // NOI18N
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -810,7 +810,7 @@ public class AccionsAlumne4 extends javax.swing.JInternalFrame {
         jPanel6.setLayout(new com.l2fprod.common.swing.PercentLayout());
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iesapp/modules/fitxes/icons/flag_red.gif"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/iesapp/modules/fitxes/icons/flag_red.gif"))); // NOI18N
         jLabel9.setText("Pendents:");
         jLabel9.setName("jLabel9"); // NOI18N
         jLabel9.setPreferredSize(new java.awt.Dimension(90, 24));
@@ -890,7 +890,7 @@ public class AccionsAlumne4 extends javax.swing.JInternalFrame {
      */
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         listening = false;
-        TopModuleDeamon deamon = TopModuleDeamon.getActiveDeamons().get(FitxesDeamon.class.getName()+"@"+cfg.getCoreCfg().getUserInfo().getAbrev());
+        TopModuleDaemon deamon = TopModuleDaemon.getActiveDeamons().get(FitxesDeamon.class.getName()+"@"+cfg.getCoreCfg().getUserInfo().getAbrev());
         if(deamon!=null)
         {
             deamon.checkStatus();

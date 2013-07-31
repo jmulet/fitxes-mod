@@ -165,7 +165,7 @@ public class FormDadesPersonals extends javax.swing.JPanel {
             public void paintComponent(Graphics g)
             {
                 java.awt.Dimension d = getSize();
-                ImageIcon img = new javax.swing.ImageIcon(getClass().getResource("/iesapp/modules/fitxes/icons/fons3.gif"));
+                ImageIcon img = new javax.swing.ImageIcon(getClass().getResource("/org/iesapp/modules/fitxes/icons/fons3.jpg"));
                 //Dimension size = new Dimension(img.getWidth(null), img.getHeight(null));
                 //setPreferredSize(size);
                 //setMinimumSize(size);
@@ -250,7 +250,7 @@ public class FormDadesPersonals extends javax.swing.JPanel {
         jPanel7.setName("jPanel7"); // NOI18N
 
         jLabel23.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iesapp/modules/fitxes/icons/halt.gif"))); // NOI18N
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/iesapp/modules/fitxes/icons/halt.gif"))); // NOI18N
         jLabel23.setText("  No té permisos per veure el contingut");
         jLabel23.setName("jLabel23"); // NOI18N
 

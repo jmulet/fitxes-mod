@@ -74,7 +74,7 @@
         <Component class="javax.swing.JButton" name="jButton2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/exit.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/exit.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Surt"/>
             <Property name="name" type="java.lang.String" value="jButton2" noResource="true"/>
@@ -86,7 +86,7 @@
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/refresh.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/refresh.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Refresca"/>
             <Property name="name" type="java.lang.String" value="jButton1" noResource="true"/>
@@ -98,7 +98,7 @@
         <Component class="javax.swing.JButton" name="jButton3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/clean.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/clean.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Corregir"/>
             <Property name="name" type="java.lang.String" value="jButton3" noResource="true"/>

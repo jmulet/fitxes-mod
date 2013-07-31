@@ -21,7 +21,7 @@ public class FitxesTest extends org.iesapp.framework.pluggable.DockingFrameworkA
         initComponents();
         this.appClass = getClass();
         this.requiredJar = "org-iesapp-modules-fitxes.jar";
-        this.requiredModuleName = "/org/iesapp/modules/fitxes/FitxesGUI";
+        this.requiredModuleName = "org.iesapp.modules.fitxes.FitxesGUI";
         this.initializeFramework();
      }
  

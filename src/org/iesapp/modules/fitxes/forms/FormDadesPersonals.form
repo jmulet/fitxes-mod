@@ -73,7 +73,7 @@
               <Font name="Tahoma" size="18" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/halt.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/halt.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="  No t&#xe9; permisos per veure el contingut"/>
             <Property name="name" type="java.lang.String" value="jLabel23" noResource="true"/>
@@ -93,7 +93,7 @@
             <Property name="name" type="java.lang.String" value="jPanel6" noResource="true"/>
           </Properties>
           <AuxValues>
-            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JPanel()&#xa;{&#xa;    public void paintComponent(Graphics g)&#xa;    {&#xa;        java.awt.Dimension d = getSize();&#xa;        ImageIcon img = new javax.swing.ImageIcon(getClass().getResource(&quot;/iesapp/modules/fitxes/icons/fons3.gif&quot;));&#xa;        //Dimension size = new Dimension(img.getWidth(null), img.getHeight(null));&#xa;        //setPreferredSize(size);&#xa;        //setMinimumSize(size);&#xa;        //setMaximumSize(size);&#xa;        //setSize(size);&#xa;        //setLayout(null);&#xa;        for( int x = 0; x &lt; d.width; x += img.getIconWidth() )&#xa;        for( int y = 0; y &lt; d.height; y += img.getIconHeight() )&#xa;        g.drawImage( img.getImage(), x, y, null, null );&#xa;    }&#xa;}&#xa;"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JPanel()&#xa;{&#xa;    public void paintComponent(Graphics g)&#xa;    {&#xa;        java.awt.Dimension d = getSize();&#xa;        ImageIcon img = new javax.swing.ImageIcon(getClass().getResource(&quot;/org/iesapp/modules/fitxes/icons/fons3.jpg&quot;));&#xa;        //Dimension size = new Dimension(img.getWidth(null), img.getHeight(null));&#xa;        //setPreferredSize(size);&#xa;        //setMinimumSize(size);&#xa;        //setMaximumSize(size);&#xa;        //setSize(size);&#xa;        //setLayout(null);&#xa;        for( int x = 0; x &lt; d.width; x += img.getIconWidth() )&#xa;        for( int y = 0; y &lt; d.height; y += img.getIconHeight() )&#xa;        g.drawImage( img.getImage(), x, y, null, null );&#xa;    }&#xa;}&#xa;"/>
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">

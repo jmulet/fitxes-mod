@@ -505,7 +505,7 @@
                 <Component class="javax.swing.JButton" name="jButton2">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/iesapp/modules/fitxes/icons/genera.gif"/>
+                      <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/genera.gif"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Genera informe"/>
                     <Property name="name" type="java.lang.String" value="jButton2" noResource="true"/>
@@ -563,7 +563,7 @@
         <Component class="javax.swing.JButton" name="jButton4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/insert.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/insert.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Nova Entrevista"/>
             <Property name="name" type="java.lang.String" value="jButton4" noResource="true"/>

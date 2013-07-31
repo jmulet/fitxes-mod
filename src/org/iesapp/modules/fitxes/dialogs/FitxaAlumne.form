@@ -138,7 +138,7 @@
             <Component class="javax.swing.JButton" name="jButton2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/iesapp/modules/fitxes/icons/insert.gif"/>
+                  <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/insert.gif"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Nou   "/>
                 <Property name="toolTipText" type="java.lang.String" value="Crea una fitxa per un nou curs"/>
@@ -156,7 +156,7 @@
             <Component class="javax.swing.JButton" name="jButton3">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/iesapp/modules/fitxes/icons/delete.gif"/>
+                  <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/delete.gif"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Esborra  "/>
                 <Property name="toolTipText" type="java.lang.String" value="Esborra la fitxa del curs seleccionat"/>
@@ -186,7 +186,7 @@
             <Component class="javax.swing.JButton" name="jButton7">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/iesapp/modules/fitxes/icons/primaria.gif"/>
+                  <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/primaria.gif"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Prim&#xe0;ria  "/>
                 <Property name="toolTipText" type="java.lang.String" value="Mostra informaci&#xf3; informes de prim&#xe0;ria"/>
@@ -206,7 +206,7 @@
             <Component class="javax.swing.JButton" name="jButton4">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/iesapp/modules/fitxes/icons/pdf.gif"/>
+                  <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/pdf.gif"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Informe  "/>
                 <Property name="toolTipText" type="java.lang.String" value="Genera la fitxa de tutoria"/>
@@ -237,7 +237,7 @@
             <Component class="javax.swing.JButton" name="jButton1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/iesapp/modules/fitxes/icons/exit.gif"/>
+                  <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/exit.gif"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Desa  i Tanca"/>
                 <Property name="toolTipText" type="java.lang.String" value="Aplica els canvis i tanca la finestra"/>
@@ -320,7 +320,7 @@
             <Component class="javax.swing.JButton" name="jButton6">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/iesapp/modules/fitxes/icons/forward.gif"/>
+                  <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/forward.gif"/>
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value="Alumne seg&#xfc;ent"/>
                 <Property name="name" type="java.lang.String" value="jButton6" noResource="true"/>
@@ -332,7 +332,7 @@
             <Component class="javax.swing.JButton" name="jButton5">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/iesapp/modules/fitxes/icons/back.gif"/>
+                  <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/back.gif"/>
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value="Alumne anterior"/>
                 <Property name="name" type="java.lang.String" value="jButton5" noResource="true"/>

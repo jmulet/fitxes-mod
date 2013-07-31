@@ -2,7 +2,7 @@ package org.iesapp.modules.fitxes;
 
 import java.util.HashMap;
 import org.iesapp.clients.iesdigital.fitxes.TasquesPendents;
-import org.iesapp.framework.pluggable.deamons.TopModuleDeamon;
+import org.iesapp.framework.pluggable.daemons.TopModuleDaemon;
 
 /*
  * To change this template, choose Tools | Templates
@@ -13,7 +13,7 @@ import org.iesapp.framework.pluggable.deamons.TopModuleDeamon;
  *
  * @author Josep
  */
-public class FitxesDeamon extends TopModuleDeamon{
+public class FitxesDeamon extends TopModuleDaemon{
     private TasquesPendents tp;
     private String message;
     private int solPendents = 0;
@@ -28,12 +28,12 @@ public class FitxesDeamon extends TopModuleDeamon{
             if(solPendentsNew>0)
             {
                  message = solPendentsNew+" alumnes requereixen actuacions";
-                 status = TopModuleDeamon.STATUS_AWAKE;
+                 status = TopModuleDaemon.STATUS_AWAKE;
             }
             else
             {
                  message = "";
-                 status = TopModuleDeamon.STATUS_NORMAL;
+                 status = TopModuleDaemon.STATUS_NORMAL;
             }
 
             if( solPendents!=solPendentsNew )

@@ -14,7 +14,7 @@
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/pares.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/pares.gif"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Entrevista amb pares"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -39,7 +39,7 @@
         <Component class="javax.swing.JButton" name="jButton7">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/keys.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/keys.gif"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Llista de contrasenyes"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -53,7 +53,7 @@
         <Component class="javax.swing.JButton" name="jButton8">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/orles.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/orles.gif"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Orles de grup"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -67,7 +67,7 @@
         <Component class="javax.swing.JButton" name="jButton10">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/resumFitxes.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/resumFitxes.gif"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Resum Fitxes Tutoria"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -81,7 +81,7 @@
         <Component class="javax.swing.JButton" name="jButton9">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/sgd.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/sgd.gif"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Informes SGD"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -182,7 +182,7 @@
         <MenuItem class="javax.swing.JMenuItem" name="jMenuItem32">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/clean.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/clean.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Netejador"/>
           </Properties>
@@ -196,7 +196,7 @@
               <KeyStroke key="F9"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/switch.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/switch.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Canvia l&apos;alumne de grup"/>
           </Properties>
@@ -210,7 +210,7 @@
               <KeyStroke key="Ctrl+F9"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/close.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/close.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="D&#xf3;na de baixa l&apos;alumne"/>
           </Properties>
@@ -300,7 +300,7 @@
         <MenuItem class="javax.swing.JMenuItem" name="jMenuItem9">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/keys.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/keys.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Llista de contrasenyes"/>
           </Properties>
@@ -311,7 +311,7 @@
         <MenuItem class="javax.swing.JMenuItem" name="jMenuItem20">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/orles.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/orles.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Orles de grup"/>
           </Properties>
@@ -322,7 +322,7 @@
         <MenuItem class="javax.swing.JMenuItem" name="jMenuItem10">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/resumFitxes.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/resumFitxes.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Resum fitxes tutoria"/>
           </Properties>
@@ -335,7 +335,7 @@
         <MenuItem class="javax.swing.JMenuItem" name="jMenuItem18">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/sgd.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/sgd.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Informes SGD"/>
           </Properties>
@@ -353,7 +353,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem22">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/informe.gif"/>
+                  <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/informe.gif"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Actuacions realitzades"/>
               </Properties>
@@ -367,7 +367,7 @@
                   <KeyStroke key="Ctrl+P"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/informe.gif"/>
+                  <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/informe.gif"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Actuacions pendents"/>
               </Properties>
@@ -385,7 +385,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem29">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/informe.gif"/>
+                  <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/informe.gif"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Sol&#xb7;licituds d&apos;informaci&#xf3; tutors"/>
               </Properties>
@@ -396,7 +396,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem31">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/informe.gif"/>
+                  <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/informe.gif"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Visites de pares"/>
               </Properties>
@@ -414,7 +414,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem26">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/informe.gif"/>
+                  <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/informe.gif"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="C&#xe0;stig de Dimecres"/>
               </Properties>
@@ -454,7 +454,7 @@
         <MenuItem class="javax.swing.JMenuItem" name="jMenuItem34">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/informe.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/informe.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="P&#xe8;rdua d&apos;avaluaci&#xf3; cont&#xed;nua"/>
             <Property name="toolTipText" type="java.lang.String" value="resoluci&#xf3; del Consell Escolar"/>
@@ -467,7 +467,7 @@
         <MenuItem class="javax.swing.JMenuItem" name="jMenuItem33">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/statistics.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/statistics.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Estad&#xed;stiques"/>
           </Properties>
@@ -490,7 +490,7 @@
         <MenuItem class="javax.swing.JMenuItem" name="jMenuItem19">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/iesapp/modules/fitxes/icons/toobar/pares.gif"/>
+              <Image iconType="3" name="/org/iesapp/modules/fitxes/icons/toobar/pares.gif"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Entrevista amb pares"/>
           </Properties>
